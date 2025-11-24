@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parfumerie – Accueil</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
+header { background: #111; color: #fff; padding: 20px; text-align: center; }
+nav { background: #333; display: flex; justify-content: center; }
+nav a { color: #fff; padding: 15px 20px; text-decoration: none; }
+nav a:hover { background: #555; }
+.hero { background: url('hero.jpg') center/cover no-repeat; height: 300px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2em; }
+.section { padding: 40px; max-width: 1000px; margin: auto; background: #fff; margin-top: 20px; border-radius: 8px; }
+footer { background: #111; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<header>
+<h1>Parfumerie</h1>
+<p>Création et excellence olfactive</p>
+</header>
+
+
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#produits">Produits</a>
+<a href="#savoirfaire">Savoir-faire</a>
+<a href="#contact">Contact</a>
+</nav>
+
+
+<div class="hero" id="accueil">
+<div>Votre univers parfumé</div>
+</div>
+
+
+<div class="section" id="presentation">
+<h2>Présentation</h2>
+<p>
+Notre entreprise est spécialisée dans la création et la commercialisation de parfums.
+Nous sélectionnons des matières premières de qualité et développons des fragrances
+conçues pour offrir élégance, tenue et caractère.
+</p>
+</div>
+
+
+<div class="section" id="produits">
+<h2>Nos Produits</h2>
+<ul>
+<li>Parfums</li>
+<li>Eaux de toilette</li>
+<li>Brumes parfumées</li>
+<li>Essences et compositions</li>
+</ul>
+</div>
+
+
+<div class="section" id="savoirfaire">
+<h2>Savoir-faire</h2>
+<p>
+Nos parfumeurs mettent en œuvre une expertise unique pour formuler des
+compositions olfactives équilibrées et durables. Chaque produit est
+soigneusement testé avant sa mise sur le marché.
+</p>
+</div>
+
+
+<div class="section" id="contact">
+<h2>Contact</h2>
+<p>Email : contact@parfumerie.com</p>
+<p>Téléphone : +213 00 00 00 00</p>
+</div>
+
+
+<footer>
+&copy; 2025 Parfumerie – Tous droits réservés.
+</footer>
+</body>
+</html>
